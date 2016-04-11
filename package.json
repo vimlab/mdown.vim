@@ -1,0 +1,12 @@
+{
+  "name": "mdown.vim",
+  "version": "0.1.0",
+  "description": "Live markdown preview within VIM",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "got": "^6.3.0",
+    "highlight.js": "^9.3.0",
+    "markdown-it": "^6.0.1",
+    "tiny-lr": "^0.2.1"
+  }
+}
