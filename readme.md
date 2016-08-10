@@ -29,8 +29,11 @@ package managers allows you to perform a post-install hook, like vim-plug or
 neobundle.
 
 **Example Using [vim-plug]**
-
+    
+    Plug 'neovim/node-host', { 'do': 'npm install' }
     Plug 'mklabs/mdown.vim', { 'do': 'npm install' }
+    
+Once installed, make sure to "update remote plugins" by running `:UpdateRemotePlugins`
 
 ## Example
 
