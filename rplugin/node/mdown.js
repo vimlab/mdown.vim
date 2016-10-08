@@ -47,9 +47,9 @@ function preview(nvim, args, done) {
     markdownFromBuffer(nvim, function(err) {
       if (err) return done(err);
 
-      util.openBrowser(function() {
+      util.openBrowser(function(err) {
+        debug('opened, all done', err);
         if (err) return done(err);
-        debug('opened, all done');
         done();
       });
     });
