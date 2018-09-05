@@ -1,5 +1,7 @@
 # mdown.vim
 
+**Currently unmaintained**: See Issue #2.
+
 Neovim plugin that brings simple, but efficient, markdown preview within VIM.
 
 It uses neovim's remote plugin feature to glue up together [markdown-it][],
