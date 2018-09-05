@@ -1,6 +1,6 @@
 # mdown.vim
 
-**Currently unmaintained**: See Issue #2.
+**Currently unmaintained**: See Issue [#2](https://github.com/vimlab/mdown.vim/issues/2).
 
 Neovim plugin that brings simple, but efficient, markdown preview within VIM.
 
